@@ -1,14 +1,15 @@
 # Customer Segmentation Analysis
 
 This project provides a detailed analysis and segmentation of customer data from a mall dataset. By applying K-Means clustering on key features such as Annual Income, Spending Score, and Age, it categorizes customers into distinct segments to understand their behaviors and spending patterns.
-Project Structure
+
+Project Structure:
 
   Data Exploration: Examines the data structure, distribution, and summary statistics.
   Data Visualization: Includes visualizations to identify patterns and relationships.
   K-Means Clustering: Applies clustering to segment customers based on their characteristics.
   Cluster Analysis: Provides insights into each customer segment based on spending and income attributes.
 
-Steps for Analysis
+Steps for Analysis:
 
   Importing Libraries: Loads necessary Python libraries like Pandas, Seaborn, Matplotlib, and Scikit-Learn.
   Exploratory Data Analysis (EDA): Checks data information, handles missing values, and explores column distributions.
@@ -16,7 +17,7 @@ Steps for Analysis
   Applying K-Means Clustering: Uses the Elbow Method to determine the optimal number of clusters for segmenting the data.
   Cluster Analysis & Plotting: Visualizes customer segments and interprets the results.
 
-Dataset
+Dataset:
 
 The dataset used for this project, Mall_Customers.csv, includes the following columns:
 
@@ -26,7 +27,7 @@ The dataset used for this project, Mall_Customers.csv, includes the following co
   Annual Income (k$)
   Spending Score (1-100)
 
-Key Insights
+Key Insights:
 
 The clustering analysis identified different customer segments based on spending and income patterns:
 
