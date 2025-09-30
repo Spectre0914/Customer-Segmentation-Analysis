@@ -1,40 +1,39 @@
-# Customer Segmentation Analysis
+Mall Customer Segmentation (K-Means)
 
-This project provides a detailed analysis and segmentation of customer data from a mall dataset. By applying K-Means clustering on key features such as Annual Income, Spending Score, and Age, it categorizes customers into distinct segments to understand their behaviors and spending patterns.
+Overview
+This project segments mall customers using K-Means clustering on key features—Age, Annual Income, and Spending Score—to uncover distinct behavioral groups. The insights support targeted marketing, customer profiling, and strategic decision-making.
 
-Project Structure:
+Dataset
+Mall_Customers.csv
 
-  Data Exploration: Examines the data structure, distribution, and summary statistics.
-  Data Visualization: Includes visualizations to identify patterns and relationships.
-  K-Means Clustering: Applies clustering to segment customers based on their characteristics.
-  Cluster Analysis: Provides insights into each customer segment based on spending and income attributes.
+Columns: CustomerID, Gender, Age, Annual Income (k$), Spending Score (1–100)
 
-Steps for Analysis:
+Tech Stack
+Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn
 
-  Importing Libraries: Loads necessary Python libraries like Pandas, Seaborn, Matplotlib, and Scikit-Learn.
-  Exploratory Data Analysis (EDA): Checks data information, handles missing values, and explores column distributions.
-  Data Visualization: Includes distribution plots, count plots, and scatter plots to understand the data visually.
-  Applying K-Means Clustering: Uses the Elbow Method to determine the optimal number of clusters for segmenting the data.
-  Cluster Analysis & Plotting: Visualizes customer segments and interprets the results.
+Workflow
+Data Exploration: Inspect structure, summary stats, and distributions; handle missing values.
 
-Dataset:
+Data Visualization: Distribution, count, and scatter plots to reveal relationships.
 
-The dataset used for this project, Mall_Customers.csv, includes the following columns:
+K-Means Clustering: Use the Elbow Method to choose optimal k; cluster on selected features.
 
-  CustomerID
-  Gender
-  Age
-  Annual Income (k$)
-  Spending Score (1-100)
+Cluster Analysis: Interpret segments by income and spending behavior; visualize clusters.
 
-Key Insights:
+Customer Segments
+Cluster 1: High income, low spending
 
-The clustering analysis identified different customer segments based on spending and income patterns:
+Cluster 2: Average income, average spending
 
-  Cluster 1: High Income, Low Spending
-  Cluster 2: Average Income, Average Spending
-  Cluster 3: High Income, High Spending
-  Cluster 4: Low Income, High Spending
-  Cluster 5: Low Income, Low Spending
+Cluster 3: High income, high spending
 
-These segments help in understanding customer preferences, targeting the right audience, and optimizing marketing strategies.
+Cluster 4: Low income, high spending
+
+Cluster 5: Low income, low spending
+
+Highlights
+Clear segmentation of customers by spending patterns and purchasing power.
+
+Visual insights to support audience targeting and offer personalization.
+
+Reproducible workflow using standard data science libraries.
